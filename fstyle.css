@@ -1,0 +1,143 @@
+:root{
+    --padding:15px;
+    --margin:5px
+}
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+/* main container */
+.main-container{
+    margin: 2px;
+    padding: 10px;
+}
+
+.flex{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+/* main heading section styling */
+.maininfo{
+   
+    background-image: url(https://wallpapers.com/images/featured/travel-hd-background-axhrsecphqby11wk.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-radius: 5px;
+    padding: 10px;
+   
+}
+.main-heading{
+    font-size: 1.5rem;
+    text-shadow: 1px 1px gray;
+    text-align: center;
+    padding: var(--padding);
+    margin: var(--margin);  
+}
+
+.sub-heading{
+    font-size: 1.5rem;
+    text-shadow: 1px 1px gray;
+    text-align: center;
+    padding: var(--padding);
+    margin: var(--margin); 
+    text-decoration: underline;
+}
+
+.about-trip{
+    font-size: 1.2rem;
+    text-shadow: 1px 1px gray;
+    text-align: center;
+    padding: var(--padding);
+    margin: var(--margin); 
+    color: rgb(0, 0, 0);
+}
+
+/* FEES AND TRAVELLING STYLING */
+
+
+.amount-travel{
+    background-image: url(https://uploads-ssl.webflow.com/641d54fdcc011edcca41c54a/64424646a6675cab6a932add_6391ed115e29502088435d0b_How%2520much%2520should%2520you%2520spend%2520on%2520your%2520travel%2520plans_%2520-Feature%2520image.jpeg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    margin: 1px;
+    padding: 20px;
+    
+}
+
+
+/* places styling */
+.places{
+    height: 1000vh;
+    margin: 3px;
+    padding: 20px;
+    background: linear-gradient(to right, #deece2, #aedae1 );
+}
+
+.place1-shimla img{
+    width: 570px;
+}
+
+.places img {
+    margin: 10px;
+    margin-top: 35px;
+    height: 300px;
+    border-radius: 10px;
+    
+}
+
+
+.places input[type=button]:hover{
+    background-color: rgb(10, 90, 122);
+    
+}
+
+
+
+.places input[type=button] {
+    width: 300px;
+    height: 29px;
+    border: 1 px solid black;
+    border-radius: 10px;
+    background-color: rgba(45, 45, 112, 0.966);
+    
+}
+
+.places h3{
+    text-align: center;
+    padding-right: 30px;
+}
+
+/* nav link styling  */
+li{
+    list-style: none;
+    align-items: center;
+    gap: 10px;
+    padding: 20px;
+    
+}
+
+.nav-links{
+    margin-top: 40px;
+    background-color: #95dfea;
+    border: 1px solid #95dfea;
+    border-radius: 3px;
+}
+
+/* contact container */
+.contact-container h3{
+    margin-top: 50px;
+    padding: 10px;
+    text-decoration: underline;
+    background-color: #95dfea;
+    border: 1px solid #95dfea;
+    border-radius: 3px;
+}
+.contact{
+    display: flex;
+    gap: 20px;
+    justify-content:center;
+    padding: 15px;
+}
