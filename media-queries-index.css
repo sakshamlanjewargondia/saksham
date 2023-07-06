@@ -1,0 +1,102 @@
+@media screen and (max-width: 991px) {
+
+   
+    h2{
+        font-size: 1.8rem;
+        text-align: center;
+        justify-content: center;
+    }
+    p{
+        font-size: 1.5rem;
+       
+    }
+    
+
+    
+   
+}
+
+@media screen and (max-width:667px) {
+    
+
+   
+    .place1-shimla{
+        flex-direction: column;
+        margin: 5px;
+    }
+    .place2-manali{
+        flex-direction: column;
+        margin: 5px;
+    }
+    .place3-agra{
+        flex-direction: column;
+        margin: 5px;
+    }
+
+    .places img {
+       
+        margin-top: 25px;
+        height: 200px; 
+    }
+    .place1-shimla img{
+    
+        width: 470px;
+    }
+
+    .contact-container{
+        width: 100%;
+    }
+
+    p{
+        font-size: 1.1rem;
+        padding: 15px;
+       
+    }
+}
+
+@media screen and (width<500px) {
+    
+    .places p{
+        font-size: 1rem;
+        padding: 5px;
+    }
+
+    .place1-shimla img{
+    
+        width: 370px;
+    }
+
+    .sub-heading h4,p{
+        font-size: 1.2rem;
+        font-weight: bold;
+    }
+
+
+    .btn{
+        padding: 10px;
+    }
+    .btn-links  input[type=button]{   
+        height: 30px;
+        width: 200px;
+    }
+}
+
+
+@media screen and (width<400px) {
+    
+    .places p{
+        font-size: 1rem;
+        padding: 5px;
+    }
+    .btn-links  input[type=button]{
+  
+        padding: 10px;
+        background: linear-gradient(to left, rgb(255, 255, 255), rgba(128, 122, 122, 0.637));
+        height: 40px;
+        width: 120px;
+       
+        border: 2px solid gray;
+        border-radius: 10px;
+        transition: 0.2s ease-in-out;
+    }
+}
