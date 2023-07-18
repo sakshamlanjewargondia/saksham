@@ -1,0 +1,148 @@
+@media screen and (max-width:991px) {
+    
+    h1{
+        font-size: 1.9rem;
+    }
+
+    .place1-agra img{
+        
+        width: 100%;
+        height: 150px;
+    }
+    .manali-places img{
+        width: 100%;
+        height: 150px;
+      
+     }
+
+     .shimla-places img{
+        width: 100%;
+        height: 150px;
+      
+     }
+
+    }
+
+
+
+@media screen and (max-width:800px) {
+    
+    h1{
+        font-size: 1.5rem;
+        color: rgb(0, 0, 0);
+        text-shadow: 2px 2px rgb(255, 255, 255);
+    }
+
+  
+
+    p{
+        font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    }
+
+
+    .place1-agra img{
+        
+        width: 100%;
+        height: 150px;
+    }
+    .manali-places img{
+        width: 100%;
+        height: 150px;
+      
+     }
+
+     .shimla-places img{
+        width: 100%;
+        height: 150px;
+      
+     }
+     .place3-shimla img {
+        width: 240px;
+       
+      
+     }
+     h3{
+        font-size: 1rem;
+     }
+
+}
+
+@media screen and (max-width:600px) {
+
+
+    h1{
+        font-size: 1.2rem;
+    }
+        .place1-agra img{
+            
+            width: 100%;
+            height: 100px;
+        }
+        .manali-places img{
+            width: 100%;
+            height: 100px;
+          
+         }
+    
+         .shimla-places img{
+            width: 100%;
+            height: 100px;
+          
+         }
+         .place3-shimla img {
+            width: 160px;
+           
+          
+         }
+    
+         h4,h2{
+            font-size: 1.1rem;
+         }
+    
+         
+    
+      
+    }
+
+@media screen and (max-width:500px) {
+
+
+h1{
+    font-size: 1.2rem;
+}
+    .place1-agra img{
+        
+        width: 100%;
+        height: 100px;
+    }
+    .manali-places img{
+        width: 100%;
+        height: 100px;
+      
+     }
+
+     .shimla-places img{
+        width: 100%;
+        height: 100px;
+      
+     }
+     .place3-shimla img {
+        width: 160px;
+       
+      
+     }
+
+     h4,h2{
+        font-size: 1.1rem;
+     }
+
+     .travelling-info li{
+        font-size: 1rem;
+        font-weight: bold;
+        text-align: right;
+        padding: 3px;
+     }
+     
+
+  
+}
