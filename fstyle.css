@@ -1,0 +1,347 @@
+
+
+
+:root{
+    --padding:15px;
+    --margin:5px
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+/* main container */
+
+.main-header {
+    padding: 10px;
+    text-shadow: 1px 1px gray;
+    background-image: url(https://images.unsplash.com/photo-1533850595620-7b1711221751?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8OHx8dHJhdmVsbGluZ3xlbnwwfHwwfHx8MA%3D%3D&w=1000&q=80);
+    background-size: cover;
+    
+  
+}
+
+
+
+/* TRAVELLING and places styling */
+
+ h4{
+    font-size: 1.4rem;
+    text-align: center;
+    text-decoration:underline;
+    color: black;
+    text-shadow: 3px 1px 2px rgb(255,255,255);
+}
+
+h1{
+    text-align: center;
+    font-size: 2rem;
+    color: rgb(0, 0, 0);
+    text-shadow: 2px 2px rgb(255, 255, 255);
+}
+
+
+.places h2{
+    text-shadow:1px 1px gray;
+}
+ h2{
+    font-size: 1.7rem;
+    text-align: center;
+    padding: 10px;
+    
+   
+}
+
+h3{
+    font-size: 1.3rem;
+}
+
+.travelling-info li{
+    font-size: 1rem;
+    padding: 6px;
+    text-align: center;
+  
+}
+.travelling-info ul{
+    list-style: none;
+    border-radius: 10px;
+    padding: 10px;
+}
+
+.travelling-info{
+    margin: 2px;
+    background-image: url(https://thumbs.dreamstime.com/b/tourist-white-bus-road-highway-very-fast-driving-touristic-travel-concept-realistic-k-animation-109697589.jpg);
+    background-repeat: no-repeat;
+    background-position: right;
+   
+    background-size: cover;
+   
+    height: 350px;
+}
+
+
+
+.main-container{
+ 
+    font-family: 'Roboto', sans-serif;
+    height: 100%;
+    margin: 2px;
+    padding: px;
+    overflow: hidden;
+    
+}
+
+.flex{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+.flx{
+    flex-wrap: wrap;
+}
+
+/* main heading section styling */
+.maininfo{
+   
+    background-image: url(https://wallpapers.com/images/featured/travel-hd-background-axhrsecphqby11wk.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-radius: 5px;
+    padding: 10px;
+    flex-wrap: wrap;
+   
+}
+.main-heading{
+    font-size: 1.5rem;
+    text-shadow: 1px 1px gray;
+    text-align: center;
+    padding: var(--padding);
+    margin: var(--margin);  
+}
+
+.sub-heading{
+    font-size: 1.5rem;
+    text-shadow: 1px 1px gray;
+    text-align: center;
+    padding: var(--padding);
+    margin: var(--margin); 
+    
+}
+
+
+
+.about-trip{
+    font-size: 1.2rem;
+    text-shadow: 1px 1px gray;
+    text-align: center;
+    padding: var(--padding);
+    margin: var(--margin); 
+    color: rgb(0, 0, 0);
+}
+
+
+
+/* places styling */
+.places{
+    
+    overflow: hidden;
+    height: 100%;
+    margin: 3px;
+    padding: 50px;
+   background-image: url(https://images.wallpapersden.com/image/download/line-light-background_aGVsZpSZmpqtpaSklGdqa2WtZmtlZQ.jpg);
+   background-repeat: no-repeat;
+
+   background-size: cover;
+   border-radius: 10px;
+}
+
+.place1-shimla {
+    
+    margin-right: 60px;
+    
+}
+
+
+.place1-shimla img{
+    width: 650px;
+    flex-direction: row; 
+}
+
+.placesof-shimla img{
+    height: 100%;
+    width: 250px;
+    
+}
+
+.placesof-manali img{
+    height: 100%;
+    width: 250px;
+  
+}
+
+
+.place2-manali {
+    margin-top: 60px;
+}
+
+
+.place3-agra{
+    margin-right: 60px;
+    margin-bottom: 80px;
+}
+.place-agra img{
+    width: 250px;
+    height: 250px;
+}
+
+.places, .right-part{
+   
+    margin-bottom: 10px;
+    flex-direction: column;
+}
+    .places img {
+       
+        margin-top: 25px;
+        height: 200px; 
+    }
+    .place1-shimla img{
+    
+        width: 470px;
+    }
+
+
+.places img {
+    margin: 30px;
+    height: 300px;
+    border-radius: 10px;
+}
+
+
+.places input[type=button]:hover{
+    background-color: rgba(255, 255, 255, 0.966);
+   
+}
+
+
+
+.places input[type=button] {
+   text-align: center;
+   justify-content: center;
+    width: 170px;
+    height: 29px;
+    border: 1 px solid black;
+    border-radius: 10px;
+    background-color: rgba(41, 41, 41, 0);
+    transition: 0.2s ease-in-out;    
+   
+    
+}
+
+ h3{
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+
+
+
+/* contact container */
+.contact-container h3{
+    padding: 10px;
+    text-decoration: underline;
+    background-color: #95dfea;
+    border: 1px solid #95dfea;
+    border-radius: 3px;
+}
+.contact{
+    display: flex;
+    gap: 20px;
+    justify-content:center;
+    padding: 15px;
+}
+
+
+.contact i:hover{
+    transform: scale(1.5);
+}
+
+h5{
+    font-size: 1rem;
+    text-decoration: underline;
+}
+
+.contact2{
+    width: 100vw;
+    display: flex;
+    gap: 20px;
+    justify-content:center;
+    padding: 15px;
+}
+
+
+.contact2 i:hover{
+    transform: scale(1.5);
+}
+
+
+/* BUTTONstyling  */
+.btn{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+    
+}
+.btn-links  input[type=button]{
+  
+    background: linear-gradient(to left, rgb(255, 255, 255), rgba(128, 122, 122, 0.637));
+    height: 50px;
+    width: 220px;
+    margin: 20px;
+   
+    border-radius: 10px;
+    transition: 0.2s ease-in-out;
+}
+
+.btn-links  input[type=button]:hover{
+  background-color:black;
+  cursor: pointer;
+  transform: scale(1.1);
+  
+}
+
+.places input[type=button]{
+    border: 2px solid rgb(0, 0, 0);
+    border-radius: 5px;
+}
+
+.places input[type=button]:hover{
+    background-color: #33bacf;
+    transform: scale(1.1);
+}
+
+.places input[type=button]:visited{
+    background-color: #02082e;
+}
+
+
+
+
+/* BOX SHADOW  */
+
+.place1-shimla{
+    box-shadow: rgba(50, 48, 58, 0.823) 0px 48px 100px 0px;
+    border-radius: 40px;
+}
+
+.place2-manali{
+    box-shadow: rgba(61, 59, 71, 0.823) 0px 48px 100px 0px;
+    border-radius: 40px;
+}
+
+.place3-agra{
+    box-shadow: rgba(38, 37, 45, 0.823) 0px 48px 100px 0px;
+    border-radius: 40px;
+}
+

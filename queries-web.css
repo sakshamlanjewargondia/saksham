@@ -1,0 +1,123 @@
+@media screen and (max-width: 1000px)  {
+
+
+    .place-name p{
+        color: rgb(0, 0, 0);
+        text-shadow: 3px 2px rgb(255, 255, 255);
+        font-size: 3.5rem;
+    }
+
+    .heading{
+        font-size: 1.2rem;
+        text-shadow: 2px 2px rgb(255, 255, 255);
+    }
+
+    .about p{
+       
+        color: rgb(255, 245, 245);
+        text-shadow: 3px 1px rgb(0, 0, 0);
+          font-size: 1.6rem;
+          padding: 5px;
+          text-align: center;
+          font-weight: bolder;
+
+     
+    }
+
+    .about h4{
+       
+        color: black;
+            text-decoration: underline;
+            margin-left: 30px;
+            text-align: center;
+       
+
+    }
+
+    @media screen and (max-width: 667px)  {
+
+
+        .place-name p{
+       font-size: 2.5rem;
+       text-decoration: none;
+       margin-top: 10px;
+        }
+        .heading{
+            padding: 20px;
+            letter-spacing:-0.1ch;
+        }
+
+        .link {
+            display: flex;
+            justify-content: center;
+            text-align: center;
+            color: black;
+            transition: 0.1s ease-in-out;
+          }
+          
+          .main{
+            background-image: url(HILL\ MOUNTAIN.jpeg);
+            background-repeat: no-repeat;
+            background-position: top;
+         }
+
+         .about p{
+           
+            color: rgb(255, 245, 245);
+                  text-shadow: 3px 1px rgb(0, 0, 0);
+                    font-size: 1.6rem;
+                    padding: 5px;
+                    text-align: center;
+                    font-weight: bolder;
+
+         
+        }
+    
+        .about h4{
+           
+            color: black;
+            text-decoration: underline;
+            margin-left: 30px;
+            text-align: center;
+        }
+
+        }
+
+        @media screen and (max-width: 600px){
+            
+            .place-name p{
+           font-size: 1.9rem;
+           letter-spacing: -0.1ch;
+           text-decoration: none;
+                
+                 }
+
+                 .main{
+                    background-image: url(HILL\ MOUNTAIN.jpeg);
+                    background-repeat: no-repeat;
+                    background-position: center;
+                 }
+
+                 .discover{
+                    font-size: 1.6rem;
+                 }
+
+                 .about p{
+                  color: rgb(255, 245, 245);
+                  text-shadow: 3px 1px rgb(0, 0, 0);
+                    font-size: 1.6rem;
+                    padding: 5px;
+                    text-align: center;
+                    font-weight: bolder;
+                 
+                }
+            
+                .about h4{
+                    color: black;
+                    text-decoration: underline;
+                    margin-left: 30px;
+                    text-align: center;
+                }
+                
+            }
+        }
